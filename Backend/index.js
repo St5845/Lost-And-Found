@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use("/api/auth", authRoutes);
-app.use("/uploads", express.static(path.join(__dirname, "../uploads"))); // Add a directory for uploaded files
+app.use("/uploads", express.static(path.join(__dirname, "/uploads"))); // Add a directory for uploaded files
 app.use("/api/items", itemsRoutes);
 
 app.use("/api/claims", Claim);

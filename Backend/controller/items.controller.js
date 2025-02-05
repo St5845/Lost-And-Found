@@ -9,6 +9,8 @@ export const getAllItems = async (req, res) => {
       .populate("founderId", "name")
       .exec();
     res.status(200).json(items); // Respond with the items in JSON format
+
+    console.log(items)
   } catch (error) {
     res
       .status(500)
