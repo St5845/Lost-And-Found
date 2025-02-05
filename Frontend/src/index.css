@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.anton-regular {
+        font-family: "Anton", serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+body {
+    font-family: "Anton", serif;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+       
+}
+
+.custom-background {
+    background-image: url('/public/images/statsbg.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+

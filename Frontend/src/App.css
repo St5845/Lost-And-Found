@@ -1,0 +1,18 @@
+/* App.css */
+.input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+.input:focus {
+    border-color: #4CAF50;
+    background-color: #fff;
+}
+
+.form-group {
+    position: relative;
+}
